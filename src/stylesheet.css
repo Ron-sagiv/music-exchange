@@ -241,6 +241,33 @@ header nav ul button:hover {
 .About-us ul li a {
   text-decoration: none;
 }
+/* //////////////////trusted section///////////////////// */
+.trusted {
+  width: 100%;
+  background-color: #d6d6d6;
+  border-top: 2px solid #f7901e;
+  border-bottom: 2px solid #f7901e;
+}
+.trusted h3 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.comp-img {
+  width: 100%;
+
+  padding: 1rem;
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.comp-img img {
+  border-radius: 50%;
+}
+.comp-img figure {
+  text-align: center;
+
 /*feature section*/
 .features {
   display: block;
@@ -283,4 +310,68 @@ header nav ul button:hover {
   height: 60px;
   border-radius: 50%;
   margin-left: 30px;
+}
+
+/*plans*/
+.plans {
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(201, 201, 201);
+}
+
+.planstitle h2 {
+  text-align: center;
+  margin-left: 0px;
+  color: black;
+}
+
+.planstitle p {
+  text-align: center;
+  margin-left: 0px;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.plan-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.plan-item {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  flex-direction: column;
+  max-width: 200px;
+  border: 1px solid orange;
+}
+
+.plan-item h3 {
+  text-align: center;
+}
+
+.plan-item h5 {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.plan-item p {
+  font-size: small;
+  padding: 10px;
+}
+
+.plan-item button {
+  color: black;
+  background-color: orange;
+  margin: 10px;
+}
+
+.plan-item button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
 }
