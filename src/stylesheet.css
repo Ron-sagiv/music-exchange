@@ -91,7 +91,7 @@ html {
 
 .footer {
   display: block;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: black;
@@ -198,6 +198,49 @@ header nav ul button:hover {
   border: solid;
   border-color: #f7901e;
 }
+.About-us {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+.About-us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.About-us ul li {
+  background-color: darkgray;
+  width: 280px;
+  height: 280px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.About-us ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex: 0 0 calc(33.33% - 40px);
+  border-radius: 50%;
+  align-items: center;
+}
+.About-us ul li:hover {
+  color: orange;
+  transform: scale(1.05);
+}
+.About-us ul li a {
+  text-decoration: none;
+}
 /* //////////////////trusted section///////////////////// */
 .trusted {
   width: 100%;
@@ -267,4 +310,68 @@ header nav ul button:hover {
   height: 60px;
   border-radius: 50%;
   margin-left: 30px;
+}
+
+/*plans*/
+.plans {
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(201, 201, 201);
+}
+
+.planstitle h2 {
+  text-align: center;
+  margin-left: 0px;
+  color: black;
+}
+
+.planstitle p {
+  text-align: center;
+  margin-left: 0px;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.plan-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.plan-item {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  flex-direction: column;
+  max-width: 200px;
+  border: 1px solid orange;
+}
+
+.plan-item h3 {
+  text-align: center;
+}
+
+.plan-item h5 {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.plan-item p {
+  font-size: small;
+  padding: 10px;
+}
+
+.plan-item button {
+  color: black;
+  background-color: orange;
+  margin: 10px;
+}
+
+.plan-item button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
 }
