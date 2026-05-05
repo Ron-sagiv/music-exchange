@@ -12,13 +12,65 @@ different background section in main: d6d6d6 */
 }
 
 html {
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
   background-color: #fff;
   color: #000;
 }
+
+.footer {
+  display: block;
+  margin-top: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: black;
+}
+
+.footer h2 {
+  text-align: center;
+  margin-left: 0px;
+  color: orange;
+}
+
+.footer .page-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.social-links ul li {
+  background-color: orange;
+  border-radius: 50px;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.social-links ul li a:hover {
+  color: black;
 header {
   background-color: #000;
   color: #fff;
