@@ -1,5 +1,5 @@
 body {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
 }
 /* black: #000
 white: fff
@@ -16,8 +16,8 @@ different background section in main: d6d6d6 */
 }
 
 html {
-  font-family: "Red Hat Display", sans-serif;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
@@ -224,7 +224,7 @@ header nav ul button:hover {
 }
 .comp-img figure {
   text-align: center;
-
+}
 /*feature section*/
 .features {
   display: block;
