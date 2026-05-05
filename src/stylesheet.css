@@ -198,6 +198,49 @@ header nav ul button:hover {
   border: solid;
   border-color: #f7901e;
 }
+.About-us section {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+.About-us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.About-us ul li {
+  background-color: darkgray;
+  width: 280px;
+  height: 280px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.About-us ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  max-width: 1000px;
+  margin:0 auto;
+  flex-wrap: wrap;
+  flex: 0 0 calc(33.33% - 40px);
+  border-radius: 50%;
+  align-items: center;
+}
+.About-us ul li:hover {
+  color: orange;
+  transform: scale(1.05);
+}
+.About-us ul li a {
+  text-decoration: none;
+}
 /* //////////////////trusted section///////////////////// */
 .trusted {
   width: 100%;
